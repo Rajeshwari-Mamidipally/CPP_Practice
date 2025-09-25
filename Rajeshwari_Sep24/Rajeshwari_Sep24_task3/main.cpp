@@ -4,7 +4,7 @@ int main(){
     std::cout<<"Enter date (as month,day,year) and time(as  hour,minute,second) : ";
     int month,day,year,hour,min,sec;
     std::cin>>month>>day>>year>>hour>>min>>sec;
-    DateAndTime dt(month,day,year,hour,min,sec); //creating object t
+    DateAndTime dt(month,day,year,hour,min,sec); //creating object 
     std::cout << "Starting date and time: \n";
     dt.printDateAndTime();
     dt.tick();
@@ -12,3 +12,4 @@ int main(){
     dt.printDateAndTime();
     return 0;
 }
+
