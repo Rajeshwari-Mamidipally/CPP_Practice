@@ -13,16 +13,13 @@ class  DateAndTime{
     int getHour();//returns hour 
     int getMinute();//returns minute
     int getSecond();//returns second
-    //member functions
     
+    //member functions
     void printDateAndTime();//displays date and standard time
     int tick();//increments second
-   
-    void nextDay();
     int getDaysInMonth(int,int)const;
     bool isLeapYear(int)const;
     
-
     private:
     int hour;
     int minute;
@@ -31,4 +28,5 @@ class  DateAndTime{
     int day;
     int year;
 };
+
 #endif
