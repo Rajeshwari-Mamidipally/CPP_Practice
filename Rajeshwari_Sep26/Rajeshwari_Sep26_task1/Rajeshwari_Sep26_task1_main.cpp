@@ -1,5 +1,5 @@
 #include<iostream>
-#include "DoubleSubscriptedArray.h"
+#include "Rajeshwari_Sep26_task1_DoubleSubscriptedArray.h"
 
 int main() {
     DoubleSubscriptedArray integers1(3, 5); //creating object 1
@@ -41,3 +41,4 @@ int main() {
 
     return 0;
 }
+
