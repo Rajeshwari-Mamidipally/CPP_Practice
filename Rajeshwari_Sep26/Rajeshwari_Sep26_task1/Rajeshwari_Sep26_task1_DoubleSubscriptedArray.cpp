@@ -1,7 +1,7 @@
 #include<iostream>
 #include<iomanip>
 #include<cstdlib>
-#include "DoubleSubscriptedArray.h"
+#include "Rajeshwari_Sep26_task1_DoubleSubscriptedArray.h"
 DoubleSubscriptedArray::DoubleSubscriptedArray(int r,int c) //constructor
     : rows(r > 0 ? r : 1), columns(c > 0 ? c : 1), size(rows * columns){
     ptr=new int[size];
@@ -108,4 +108,5 @@ std::ostream &operator<<(std::ostream &output, const DoubleSubscriptedArray &a){
         output<<std::endl;
     }
     return output;
+
 }
