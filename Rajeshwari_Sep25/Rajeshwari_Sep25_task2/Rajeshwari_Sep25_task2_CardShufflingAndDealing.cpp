@@ -1,7 +1,7 @@
 #include<iostream>
 #include<string>
 #include<ctime>
-#include "CardShufflingAndDealing.h"
+#include "Rajeshwari_Sep25_task2_CardShufflingAndDealing.h"
 const std::string Card::faces[13] = { //initializing faces[]
     "Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King"
 };
@@ -41,4 +41,5 @@ Card DeckOfCards::dealCard() { //returns the next Card object from the deck
 bool DeckOfCards::moreCards() const { //checks whether there are more cards to deal with or not
     return currentCard < deck.size();
 }
+
 
