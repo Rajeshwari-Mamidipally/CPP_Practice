@@ -1,5 +1,5 @@
 #include<iostream>
-#include "TortoiseAndHare.h"
+#include "Rajeshwari_Sep29_task4_TortoiseAndHare.h"
 void moveTortoise(int* pos){
     int i = rand()%10 + 1;
     if(i>=1&&i<=5){
@@ -27,4 +27,5 @@ void moveHare(int* pos){
     else{
         *pos-=2;
     }
+
 }
