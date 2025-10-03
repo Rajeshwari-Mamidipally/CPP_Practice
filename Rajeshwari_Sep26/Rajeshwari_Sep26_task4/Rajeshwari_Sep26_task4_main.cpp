@@ -1,5 +1,5 @@
 #include <iostream>
-#include "RationalNumber.h"
+#include "Rajeshwari_Sep26_task4_RationalNumber.h"
 
 int main() {
     RationalNumber r1(4, 8);   
@@ -21,3 +21,4 @@ int main() {
 
     return 0;
 }
+
