@@ -1,4 +1,4 @@
-#include "RationalNumber.h"
+#include "Rajeshwari_Sep26_task4_RationalNumber.h"
 #include <numeric>  
 #include <stdexcept> 
 
@@ -77,3 +77,4 @@ std::ostream& operator<<(std::ostream &out, const RationalNumber &r) {
     if (r.denominator != 1) out << "/" << r.denominator;
     return out;
 }
+
