@@ -1,5 +1,5 @@
-#ifndef CARDSHUFFLINGANDDEALING_H
-#define CARDSHUFFLINGANDDEALING_H
+#ifndef RAJESHWARI_SEP25_TASK2_CARDSHUFFLINGANDDEALING_H
+#define RAJESHWARI_SEP25_TASK2_CARDSHUFFLINGANDDEALING_H
 #include <string>
 #include<vector>
 using namespace std;
@@ -27,5 +27,6 @@ class DeckOfCards{
     bool moreCards() const; // Check if more cards are available
 
 };
+
 
 #endif
