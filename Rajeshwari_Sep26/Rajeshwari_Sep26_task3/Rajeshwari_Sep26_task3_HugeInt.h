@@ -1,5 +1,5 @@
-#ifndef HUGE_INT
-#define HUGE_INT
+#ifndef RAJESHWARI_SEP26_TASK3_HUGEINT_H
+#define RAJESHWARI_SEP26_TASK3_HUGEINT_H
 #include<string>
 class HugeInt{
     friend std::ostream &operator<<( std::ostream &, const HugeInt & );
@@ -39,4 +39,5 @@ class HugeInt{
     short integer[ digits ];
 
 };
+
 #endif
