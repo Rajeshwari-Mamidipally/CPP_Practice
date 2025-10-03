@@ -1,5 +1,5 @@
 #include<iostream>
-#include "QuickSort.h"
+#include "Rajeshwari_Sep30_task2_QuickSort.h"
 int partitioning(int arr[], int start, int end) {
     int pivot = arr[start];  // choose first element as pivot
     int left = start + 1;
@@ -28,4 +28,5 @@ void swap(int &a,int &b){
     int temp=a;
     a=b;
     b=temp;
+
 }
