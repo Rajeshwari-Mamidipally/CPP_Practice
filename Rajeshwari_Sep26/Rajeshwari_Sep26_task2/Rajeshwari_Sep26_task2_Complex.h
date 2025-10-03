@@ -1,5 +1,5 @@
-#ifndef COMPLEX_H
-#define COMPLEX_H
+#ifndef RAJESHWARI_SEP26_TASK2_COMPLEX_H
+#define RAJESHWARI_SEP26_TASK2_COMPLEX_H
 class Complex{
     public:
     Complex( double = 0.0, double = 0.0 );
@@ -17,3 +17,4 @@ class Complex{
 };
 
 #endif
+
