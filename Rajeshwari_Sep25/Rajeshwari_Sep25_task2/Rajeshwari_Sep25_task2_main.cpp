@@ -1,5 +1,5 @@
 #include <iostream>
-#include "CardShufflingAndDealing.h"
+#include "Rajeshwari_Sep25_task2_CardShufflingAndDealing.h"
 int main() {
     DeckOfCards deck;
     deck.shuffle();
@@ -14,3 +14,4 @@ int main() {
 
     return 0;
 }
+
