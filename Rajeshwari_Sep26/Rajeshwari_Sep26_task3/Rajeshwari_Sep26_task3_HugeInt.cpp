@@ -1,6 +1,6 @@
 #include<iostream>
 #include<cctype>
-#include "HugeInt.h"
+#include "Rajeshwari_Sep26_task3_HugeInt.h"
 HugeInt::HugeInt(long value){  //constructor
     for(int i=0;i<digits;i++)
     integer[i]=0;
@@ -184,3 +184,4 @@ std::ostream& operator<<(std::ostream &output,const HugeInt &num){
     output<<num.integer[i];
     return output;
 }
+
