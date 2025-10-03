@@ -1,5 +1,5 @@
-#ifndef DOUBLESUBSCRIPTEDARRAY_H
-#define DOUBLESUBSCRIPTEDARRAY_H
+#ifndef RAJESHWARI_SEP26_TASK1_DOUBLESUBSCRIPTEDARRAY_H
+#define RAJESHWARI_SEP26_TASK1_DOUBLESUBSCRIPTEDARRAY_H
 #include<iostream>
 class DoubleSubscriptedArray{
     friend std::ostream &operator<<( std::ostream &, const DoubleSubscriptedArray & );
@@ -24,4 +24,5 @@ class DoubleSubscriptedArray{
     int size;
     
 };
+
 #endif
