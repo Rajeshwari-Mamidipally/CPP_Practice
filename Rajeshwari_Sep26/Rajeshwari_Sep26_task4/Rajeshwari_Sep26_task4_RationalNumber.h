@@ -1,5 +1,5 @@
-#ifndef RATIONALNUMBER_H
-#define RATIONALNUMBER_H
+#ifndef RAJESHWARI_SEP26_TASK4_RATIONALNUMBER_H
+#define RAJESHWARI_SEP26_TASK4_RATIONALNUMBER_H
 
 #include <iostream>
 
@@ -35,3 +35,4 @@ public:
 };
 
 #endif
+
