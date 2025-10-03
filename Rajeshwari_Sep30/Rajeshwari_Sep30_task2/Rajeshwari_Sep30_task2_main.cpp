@@ -1,5 +1,5 @@
 #include<iostream>
-#include "QuickSort.h"
+#include "Rajeshwari_Sep30_task2_QuickSort.h"
 int main(){
     int size;
     std::cout<<"enter the size of array \n";
@@ -20,4 +20,5 @@ int main(){
     std::cout << std::endl;
 
     return 0;
+
 }
