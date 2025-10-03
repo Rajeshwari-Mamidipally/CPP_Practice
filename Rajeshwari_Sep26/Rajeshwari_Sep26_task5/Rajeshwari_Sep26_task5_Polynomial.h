@@ -1,5 +1,5 @@
-#ifndef POLYNOMIAL_H
-#define POLYNOMIAL_H
+#ifndef RAJESHWARI_SEP26_TASK5_POLYNOMIAL_H
+#define RAJESHWARI_SEP26_TASK5_POLYNOMIAL_H
 
 #include <iostream>
 #include <vector>
@@ -40,3 +40,4 @@ public:
 };
 
 #endif
+
